@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_I9KP" Alignment="Center" TypographyId="standard">
+        <Translation Language="GB">Erase</Translation>
+      </Text>
+      <Text Id="__SingleUse_E48I" Alignment="Center" TypographyId="standardoutline">
+        <Translation Language="GB">Erase</Translation>
+      </Text>
+      <Text Id="__SingleUse_U5X7" Alignment="Center" TypographyId="standard">
+        <Translation Language="GB">Acid</Translation>
+      </Text>
+      <Text Id="__SingleUse_8VL0" Alignment="Center" TypographyId="standardoutline">
+        <Translation Language="GB">Acid</Translation>
+      </Text>
+      <Text Id="__SingleUse_VQ45" Alignment="Left" TypographyId="settingsdropshadow">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="__SingleUse_C89G" Alignment="Left" TypographyId="settingsdropshadow">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_5BZZ" Alignment="Left" TypographyId="settingstypography">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="brushSizeWildcard" Alignment="Left" TypographyId="settingstypography">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="__SingleUse_WGGT" Alignment="Left" TypographyId="settingstypography">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="penSizeID" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="brushSizeText" Alignment="Center" TypographyId="settingstypography">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_1JNE" Alignment="Center" TypographyId="settingstypography">
+        <Translation Language="GB">Pen S</Translation>
+      </Text>
+      <Text Id="__SingleUse_TNM3" Alignment="Center" TypographyId="settingsdropshadow">
+        <Translation Language="GB">Pen S</Translation>
+      </Text>
+      <Text Id="__SingleUse_F8HR" Alignment="Center" TypographyId="settingsdropshadow">
+        <Translation Language="GB">StartStop</Translation>
+      </Text>
+      <Text Id="__SingleUse_70TY" Alignment="Center" TypographyId="standardoutline">
+        <Translation Language="GB">Powder</Translation>
+      </Text>
+      <Text Id="__SingleUse_J3JA" Alignment="Center" TypographyId="standardoutline">
+        <Translation Language="GB">Water</Translation>
+      </Text>
+      <Text Id="__SingleUse_24VX" Alignment="Center" TypographyId="standardoutline">
+        <Translation Language="GB">Seed</Translation>
+      </Text>
+      <Text Id="__SingleUse_L0MC" Alignment="Center" TypographyId="standardoutline">
+        <Translation Language="GB">Block</Translation>
+      </Text>
+      <Text Id="__SingleUse_JPT8" Alignment="Center" TypographyId="settingstypography">
+        <Translation Language="GB">Stop</Translation>
+      </Text>
+      <Text Id="__SingleUse_RGR4" Alignment="Center" TypographyId="settingstypography">
+        <Translation Language="GB">Start</Translation>
+      </Text>
+      <Text Id="__SingleUse_7OV9" Alignment="Center" TypographyId="settingstypography">
+        <Translation Language="GB">StartStop</Translation>
+      </Text>
+      <Text Id="__SingleUse_GHZ2" Alignment="Center" TypographyId="standard">
+        <Translation Language="GB">Block</Translation>
+      </Text>
+      <Text Id="__SingleUse_GCS1" Alignment="Center" TypographyId="standard">
+        <Translation Language="GB">Water</Translation>
+      </Text>
+      <Text Id="__SingleUse_NCUT" Alignment="Center" TypographyId="standard">
+        <Translation Language="GB">Seed</Translation>
+      </Text>
+      <Text Id="__SingleUse_F87A" Alignment="Center" TypographyId="standard">
+        <Translation Language="GB">Powder</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="standard" Font="verdanab.ttf" Size="17" Bpp="4" IsVector="no" Direction="RTL" FallbackCharacter="?" />
+    <Typography Id="settingstypography" Font="verdanab.ttf" Size="14" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7e" />
+    <Typography Id="standardoutline" Font="verdanab.ttf" Size="18" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="settingsdropshadow" Font="verdanab.ttf" Size="14" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7e" />
+  </Typographies>
+</TextDatabase>

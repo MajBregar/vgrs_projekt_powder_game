@@ -1,0 +1,680 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "bg",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "background.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "drawingContainer",
+            "X": 53,
+            "Y": 32,
+            "Width": 238,
+            "Height": 208,
+            "IsCacheableContainer": true,
+            "Components": [
+              {
+                "Type": "BoxWithBorder",
+                "Name": "boxWithBorder1",
+                "Width": 238,
+                "Height": 208,
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "BorderSize": 5,
+                "Alpha": 181
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "brushCanvas",
+            "X": -333,
+            "Y": -171,
+            "Width": 1147,
+            "Height": 615,
+            "Draggable": true,
+            "Clickable": true,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box1",
+                "X": 565,
+                "Y": 299,
+                "Width": 16,
+                "Height": 16,
+                "Visible": false,
+                "Color": {
+                  "Red": 230,
+                  "Blue": 255
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "BlockButtons",
+            "X": 291,
+            "Y": 32,
+            "Width": 98,
+            "Height": 208,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "background_box",
+                "Width": 98,
+                "Height": 208,
+                "Color": {
+                  "Red": 64,
+                  "Green": 64,
+                  "Blue": 64
+                }
+              },
+              {
+                "Type": "Container",
+                "Name": "selectButton_powder",
+                "Y": 6,
+                "Width": 92,
+                "Height": 23,
+                "Clickable": true,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "selection_tick_powder",
+                    "X": 5,
+                    "Y": 4,
+                    "Width": 4,
+                    "Height": 5,
+                    "Color": {
+                      "Red": 255
+                    },
+                    "Alpha": 207
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "red_box_powder",
+                    "Width": 92,
+                    "Height": 23,
+                    "Visible": false,
+                    "Color": {
+                      "Red": 168
+                    },
+                    "Alpha": 154
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "blockText_1_2",
+                    "X": 7,
+                    "Y": 1,
+                    "Width": 77,
+                    "Height": 22,
+                    "TextId": "__SingleUse_70TY",
+                    "TextRotation": "0",
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "blockText_1",
+                    "X": 9,
+                    "Y": 1,
+                    "Width": 72,
+                    "Height": 21,
+                    "TextId": "__SingleUse_F87A",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 245,
+                      "Green": 159,
+                      "Blue": 83
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "selectButton_seed",
+                "Y": 50,
+                "Width": 92,
+                "Height": 22,
+                "Clickable": true,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "selection_tick_seed",
+                    "X": 5,
+                    "Y": 4,
+                    "Width": 4,
+                    "Height": 5,
+                    "Visible": false,
+                    "Color": {
+                      "Red": 255
+                    },
+                    "Alpha": 207
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "red_box_seed",
+                    "Width": 92,
+                    "Height": 23,
+                    "Visible": false,
+                    "Color": {
+                      "Red": 168
+                    },
+                    "Alpha": 154
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "blockText_1_1_2",
+                    "X": 8,
+                    "Y": 1,
+                    "Width": 50,
+                    "Height": 22,
+                    "TextId": "__SingleUse_24VX",
+                    "TextRotation": "0",
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "blockText_1_1",
+                    "X": 10,
+                    "Y": 1,
+                    "Width": 46,
+                    "Height": 21,
+                    "TextId": "__SingleUse_NCUT",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 175,
+                      "Green": 186,
+                      "Blue": 58
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "selectButton_water",
+                "Y": 29,
+                "Width": 92,
+                "Height": 22,
+                "Clickable": true,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "selection_tick_water",
+                    "X": 5,
+                    "Y": 4,
+                    "Width": 4,
+                    "Height": 5,
+                    "Visible": false,
+                    "Color": {
+                      "Red": 255
+                    },
+                    "Alpha": 207
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "red_box_water",
+                    "Width": 92,
+                    "Height": 22,
+                    "Visible": false,
+                    "Color": {
+                      "Red": 168
+                    },
+                    "Alpha": 154
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "blockText_1_1_1_2",
+                    "X": 7,
+                    "Y": 1,
+                    "Width": 61,
+                    "Height": 22,
+                    "TextId": "__SingleUse_J3JA",
+                    "TextRotation": "0",
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "blockText_1_1_1",
+                    "X": 8,
+                    "Y": 1,
+                    "Width": 57,
+                    "Height": 21,
+                    "TextId": "__SingleUse_GCS1",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 4,
+                      "Green": 27,
+                      "Blue": 204
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "selectButton_erase",
+                "Y": 120,
+                "Width": 92,
+                "Height": 24,
+                "Clickable": true,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "selection_tick_erase",
+                    "X": 5,
+                    "Y": 4,
+                    "Width": 4,
+                    "Height": 5,
+                    "Visible": false,
+                    "Color": {
+                      "Red": 255
+                    },
+                    "Alpha": 207
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "red_box_erase",
+                    "Width": 92,
+                    "Height": 24,
+                    "Visible": false,
+                    "Color": {
+                      "Red": 168
+                    },
+                    "Alpha": 154
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "blockText_1_1_1_1_1_1_1",
+                    "X": 9,
+                    "Y": 1,
+                    "Width": 56,
+                    "Height": 22,
+                    "TextId": "__SingleUse_E48I",
+                    "TextRotation": "0",
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "blockText_1_1_1_1_2_1",
+                    "X": 10,
+                    "Y": 1,
+                    "Width": 52,
+                    "Height": 21,
+                    "TextId": "__SingleUse_I9KP",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 235,
+                      "Green": 235,
+                      "Blue": 235
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "selectButton_acid",
+                "Y": 96,
+                "Width": 92,
+                "Height": 24,
+                "Clickable": true,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "selection_tick_acid",
+                    "X": 5,
+                    "Y": 4,
+                    "Width": 4,
+                    "Height": 5,
+                    "Visible": false,
+                    "Color": {
+                      "Red": 255
+                    },
+                    "Alpha": 207
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "red_box_acid",
+                    "Width": 92,
+                    "Height": 24,
+                    "Visible": false,
+                    "Color": {
+                      "Red": 168
+                    },
+                    "Alpha": 154
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "blockText_1_1_1_1_1_1",
+                    "X": 9,
+                    "Y": 1,
+                    "Width": 44,
+                    "Height": 22,
+                    "TextId": "__SingleUse_8VL0",
+                    "TextRotation": "0",
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "blockText_1_1_1_1_2",
+                    "X": 10,
+                    "Y": 1,
+                    "Width": 41,
+                    "Height": 21,
+                    "TextId": "__SingleUse_U5X7",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 208,
+                      "Green": 255
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "selectButton_block",
+                "Y": 72,
+                "Width": 92,
+                "Height": 24,
+                "Clickable": true,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "selection_tick_block",
+                    "X": 5,
+                    "Y": 4,
+                    "Width": 4,
+                    "Height": 5,
+                    "Visible": false,
+                    "Color": {
+                      "Red": 255
+                    },
+                    "Alpha": 207
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "red_box_block",
+                    "Width": 92,
+                    "Height": 24,
+                    "Visible": false,
+                    "Color": {
+                      "Red": 168
+                    },
+                    "Alpha": 154
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "blockText_1_1_1_1_1",
+                    "X": 9,
+                    "Y": 1,
+                    "Width": 55,
+                    "Height": 22,
+                    "TextId": "__SingleUse_L0MC",
+                    "TextRotation": "0",
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "blockText_1_1_1_1",
+                    "X": 10,
+                    "Y": 1,
+                    "Width": 52,
+                    "Height": 21,
+                    "TextId": "__SingleUse_GHZ2",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 112,
+                      "Green": 112,
+                      "Blue": 112
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "settingsButton_pup",
+                "Y": 186,
+                "Width": 92,
+                "Height": 22,
+                "Clickable": true,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "red_box_pup",
+                    "Width": 92,
+                    "Height": 22,
+                    "Visible": false,
+                    "Color": {
+                      "Red": 168
+                    },
+                    "Alpha": 154
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "text_startStop_dropshadow",
+                    "X": 9,
+                    "Y": 4,
+                    "Width": 74,
+                    "Height": 17,
+                    "TextId": "__SingleUse_F8HR",
+                    "TextRotation": "0",
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "text_startStop",
+                    "X": 8,
+                    "Y": 3,
+                    "Width": 74,
+                    "Height": 17,
+                    "TextId": "__SingleUse_7OV9",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "text_start",
+                    "X": 8,
+                    "Y": 3,
+                    "Width": 38,
+                    "Height": 17,
+                    "TextId": "__SingleUse_RGR4",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 5,
+                      "Blue": 5
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "text_stop",
+                    "X": 46,
+                    "Y": 3,
+                    "Width": 36,
+                    "Height": 17,
+                    "Visible": false,
+                    "TextId": "__SingleUse_JPT8",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 5,
+                      "Blue": 5
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "settingsButton_penS",
+                "X": -1,
+                "Y": 164,
+                "Width": 93,
+                "Height": 22,
+                "Clickable": true,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "red_box_pens",
+                    "Width": 80,
+                    "Height": 22,
+                    "Visible": false,
+                    "Color": {
+                      "Red": 168
+                    },
+                    "Alpha": 154
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "text_startStop_dropshadow_1",
+                    "X": 9,
+                    "Y": 4,
+                    "Width": 44,
+                    "Height": 17,
+                    "TextId": "__SingleUse_TNM3",
+                    "TextRotation": "0",
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "text_penS",
+                    "X": 8,
+                    "Y": 3,
+                    "Width": 44,
+                    "Height": 17,
+                    "TextId": "__SingleUse_1JNE",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "brushSize_dropshadow",
+                    "X": 58,
+                    "Y": 4,
+                    "Width": 10,
+                    "Height": 17,
+                    "TextId": "__SingleUse_C89G",
+                    "TextRotation": "0",
+                    "AutoSize": true,
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_VQ45",
+                      "UseBuffer": true,
+                      "BufferSize": 3
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "brushSize_text",
+                    "X": 57,
+                    "Y": 3,
+                    "Width": 10,
+                    "Height": 17,
+                    "TextId": "__SingleUse_WGGT",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true,
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_5BZZ",
+                      "UseBuffer": true,
+                      "BufferSize": 3
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "testfix1",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H750 Value line",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32H750B-DK.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.23.0",
+  "CreatedBy": "4.23.0"
+}
